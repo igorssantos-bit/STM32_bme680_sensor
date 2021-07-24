@@ -6,6 +6,9 @@ This repo uses [Bosh Drivers API](https://github.com/BoschSensortec/BME680_drive
 This code provides a simplified way to measure IAQ on STM32 plataforms based on [Zanduino Drivers](https://github.com/Zanduino/BME680) for Arduino.
 
 ## File Information
+* bme680_defs.h : This header file has the constants, macros and datatype declarations.
 * bme680.c : This header file contains the declarations of the sensor driver APIs.
 * bme680.c : This source file contains the definitions of the sensor driver APIs.
-
+* example/sig_sensors.c : This source file contains the functions the plataform uses to measure and calculate IAQ.
+* example/sig_sensors.h : This header file contains the functions the plataform uses to measure and calculate IAQ.
+* example/main.c : Main loop.
